@@ -1,0 +1,8 @@
+.cart_item{
+    position: relative;    
+    border-bottom: 1px solid #927d7d6b;
+}
+
+.cart_item:last-child{
+    border-bottom: none;
+}

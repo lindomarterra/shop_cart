@@ -1,0 +1,7 @@
+.card_div:hover button {
+    display: block;
+}
+
+.card_div button {
+    display: none;
+}
