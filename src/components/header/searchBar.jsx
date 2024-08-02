@@ -18,7 +18,7 @@ const SearchBar = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit} style={{ height: '35px' }} className="d-flex">
+    <form onSubmit={handleSubmit} style={{ height: '35px', width:'250px' }} className="d-flex">
       <input
         onChange={({ target }) => setSearchValue(target.value)}
         value={searchValue}
